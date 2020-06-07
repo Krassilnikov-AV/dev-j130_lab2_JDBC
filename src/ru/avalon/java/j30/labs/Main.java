@@ -33,6 +33,7 @@ public class Main {
          */
         try (Connection connection = getConnection()) {
             System.out.println("есть соединение...");
+            // код товара_код скидки_описание
             ProductCode code = new ProductCode("MJ", 'J', "MJovies");
             code.save(connection);
             printAllCodes(connection);
@@ -68,7 +69,8 @@ public class Main {
         /*
          * TODO #02 Реализуйте метод getUrl
          */
-        String url = "jdbc:derby://localhost:1527/JavaDb_2";
+        //jdbc:derby://localhost:1527/Samples
+        String url = "jdbc:derby://localhost:1527/Samples";
         System.out.println("есть url...");
         return url;
     }
