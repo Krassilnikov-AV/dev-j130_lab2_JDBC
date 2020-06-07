@@ -34,7 +34,7 @@ public class Main {
         try (Connection connection = getConnection()) {
             System.out.println("есть соединение...");
             // код товара_код скидки_описание
-            ProductCode code = new ProductCode("MJ", 'J', "MJovies");
+            ProductCode code = new ProductCode("Gp", 'U', "Battery");
             code.save(connection);
             printAllCodes(connection);
 
