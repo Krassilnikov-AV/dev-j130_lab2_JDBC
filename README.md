@@ -157,4 +157,6 @@ Connection connection = DriverManager.getConnection(url);
 
 > В ветки master находится исходный код, который необходимо выполнить.
 
+> Sample содержит исходный код создания таблицы "Sample"
+
 Подробная информация может быть найдена в [официальной сайте Oracle](https://docs.oracle.com/javase/tutorial/jdbc/basics/index.html).
