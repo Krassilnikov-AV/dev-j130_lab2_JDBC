@@ -157,6 +157,6 @@ Connection connection = DriverManager.getConnection(url);
 `rollback()`| Отменяет транзакцию.
 `setAutoCommit()`| Устанавливает значение свойства `AutoCommit`.
 
-> Настоящее описание к лабораторной работе будет расширено  и дополнено в ближайшее время.
+> Sample содержит исходный код создания таблицы "Sample"
 
 Подробная информация может быть найдена в [официальной сайте Oracle](https://docs.oracle.com/javase/tutorial/jdbc/basics/index.html).
